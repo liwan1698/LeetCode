@@ -11,4 +11,12 @@
 │   └── binary_search.py  // 二分法查找
 ├── array      // 数组
 │   └── del_repeat.py  // 删除重复项
+├── string      // 字符串
+│   └── reverse_string.py  // 反转字符串
+├── link      // 链表
+│   └── del_node.py  // 删除链表节点
+├── tree      // 树
+│   └── max_depth.py  // 树最大深度
+├── dynamic_program      // 动态规划
+│   └── stairs.py  // 爬楼梯
 ```
