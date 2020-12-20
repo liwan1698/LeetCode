@@ -8,6 +8,7 @@
 ├── sort      // 排序算法
 │   └── bubble_sort.py  // 冒泡排序
 │   └── insert_sort.py  // 插入排序
+│   └── select_sort.py  // 选择排序
 ├── search      // 查找算法
 │   └── binary_search.py  // 二分法查找
 ├── array      // 数组
