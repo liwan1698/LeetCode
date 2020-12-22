@@ -14,6 +14,7 @@
 │   └── binary_search.py  // 二分法查找
 ├── array      // 数组
 │   └── del_repeat.py  // 删除重复项
+│   └── max_profit.py  // 获得最大利润
 ├── string_custom      // 字符串
 │   └── reverse_string.py  // 反转字符串
 ├── link      // 链表
