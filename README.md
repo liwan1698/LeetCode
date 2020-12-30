@@ -17,6 +17,7 @@
 │   └── max_profit.py  // 获得最大利润
 │   └── rotate_arr.py  // 右移数组
 │   └── exist_repeat.py  // 重复元素
+│   └── exist_one.py  // 只出现一次的数字
 ├── string_custom      // 字符串
 │   └── reverse_string.py  // 反转字符串
 ├── link      // 链表
