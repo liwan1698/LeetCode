@@ -5,26 +5,12 @@
 
 ```
 .
-├── sort      // 排序算法
-│   └── bubble_sort.py  // 冒泡排序
-│   └── insert_sort.py  // 插入排序
-│   └── select_sort.py  // 选择排序
-│   └── quick_sort.py  // 快速排序
-├── search      // 查找算法
-│   └── binary_search.py  // 二分法查找
-├── array      // 数组
-│   └── del_repeat.py  // 删除重复项
-│   └── max_profit.py  // 获得最大利润
-│   └── rotate_arr.py  // 右移数组
-│   └── exist_repeat.py  // 重复元素
-│   └── exist_one.py  // 只出现一次的数字
-│   └── intersection.py  // 求两个数组的交集
-├── string_custom      // 字符串
-│   └── reverse_string.py  // 反转字符串
-├── link      // 链表
-│   └── del_node.py  // 删除链表节点
-├── tree      // 树
-│   └── max_depth.py  // 树最大深度
-├── dynamic_program      // 动态规划
-│   └── stairs.py  // 爬楼梯
+├── 1_array      // 数组
+├── 2_chain      // 链表
+├── 3_string_custom      // 字符串
+├── 4_stack      // 堆栈和列
+├── 5_tree      // 树
+├── 6_back      // 回溯
+├── 7_greed      // 贪心
+├── 8_dynamic_program      // 动态规划
 ```
