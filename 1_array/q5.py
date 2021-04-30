@@ -10,9 +10,9 @@
 import collections
 
 
-def get_element(array):
+def find_num_max(array):
     array_dict = collections.Counter(array)
     return max(array_dict.keys(), key=array_dict.get)
 
 
-print(get_element([1,2,3,3,1,7,3,3,3]))
+print(find_num_max([3,2,3]))
