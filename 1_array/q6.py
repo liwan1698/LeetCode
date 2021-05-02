@@ -19,10 +19,10 @@ def reshape(array, r, c):
     if m*n != r*c:
         return array
 
-    ans = [[0] * c for _ in range(r)]
+    ans = [[0]*c for _ in range(r)]
     for i in range(m*n):
         ans[i//c][i%c] = array[i//n][i%n]
     return ans
 
 
-print(reshape([[1,2, 3], [3,4, 5]], 3, 2))
+print(reshape([[1,2],[3,4]], 1, 4))
