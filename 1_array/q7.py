@@ -13,16 +13,15 @@
 """
 
 
-def swap_sweet(sweet_A, sweet_B):
-    sum_A = sum(sweet_A)
-    sum_B = sum(sweet_B)
-    delta = (sum_A - sum_B) // 2
-    for j in sweet_B:
-        i = j + delta
-        if i in sweet_A:
-            return [i, j]
+def swap_candy(candyA, candyB):
+    sumA = sum(candyA)
+    sumB = sum(candyB)
+    delta = (sumA-sumB) // 2
+    for candy in candyB:
+        swap_candy = candy + delta
+        if swap_candy in candyA:
+            return [swap_candy, candy]
 
 
-
-print(swap_sweet([1,1], [2,2]))
-print(swap_sweet([2], [1,3]))
+print(swap_candy([1,1],[2,2]))
+print(swap_candy([2],[1,3]))
