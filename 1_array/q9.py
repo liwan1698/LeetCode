@@ -11,13 +11,13 @@
 """
 
 
-def check_high(heights):
-    new_heights = sorted(heights) # 通过该方式复制一个list
-    res = 0
-    for i in range(len(new_heights)):
-        if heights[i] == new_heights[i]:
-            res += 1
-    return res
+def check_order_diff(heights):
+    new_heights = sorted(heights)
+    diff = 0
+    for i in range(len(heights)):
+        if new_heights[i] != heights[i]:
+            diff += 1
+    return diff
 
 
-print(check_high([1,1,4,2,1,3]))
+print(check_order_diff([1,1,4,2,1,3]))
