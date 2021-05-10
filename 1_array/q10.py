@@ -8,18 +8,15 @@ arr2 中的每个元素都出现在 arr1 中
 输入：arr1 = [2,3,1,3,2,4,6,7,9,2,19], arr2 = [2,1,4,3,9,6]
 输出：[2,2,2,1,4,3,3,9,6,7,19]
 """
-import collections
 
 
-def compare_sort(arr1, arr2):
-    def mycmp(x: int):
-        return rank[x] if x in rank else x
+def relative_sort(arr1, arr2):
+    def mycmp(x):
+        return rank.get(x) if x in rank else x
 
     n = len(arr2)
-    rank = {x: i - n for i, x in enumerate(arr2)}
+    rank = {x: i-n for i, x in enumerate(arr2)}
     arr1.sort(key=mycmp)
     return arr1
 
-
-
-print(compare_sort([2,3,1,3,2,4,6,7,9,2,19], [2,1,4,3,9,6]))
+print(relative_sort([2,3,1,3,2,4,6,7,9,2,19], [2,1,4,3,9,6]))
